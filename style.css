@@ -5,48 +5,48 @@
 }
 
 html {
-  background-color:darkgrey;
+  background-color:rgba(0,68,95,1);
 }
 body {
   font-family:sans-serif;
 }
 .masthead-heading, .masthead-intro {
-  text-align: center;
+  text-align:left;
+  margin-left:120px;
 }
-.masthead {
-  padding: 6em, 0;
+
+.masthead-heading {
+ margin-top: 140px;
+ margin-bottom: 0px;
 }
 .masthead-intro {
-  margin-bottom: 0.1em;
+  //margin-top: -80px;
 }
-.masthead-heading {
-  margin-top: -0.2em;
-}
+
 .masthead {
-  background-image: url("images/cockpit2.jpg");
+  background-image: url("images/matterhorn.jpg");
   background-size:cover;
-  height:500px;
-  border-top: solid .3em darkslategrey;
+  height:650px;
+  border-top: solid .3em rgba(0,68,95,1);
+  border-radius:8px;
 }
 
 h1 {
   font-family:Trebuchet MS, sans-serif;
   color: #F3D350;
-  padding-top:70px;
+  //margin-top:170px;
   font-size: 3.4em;
-  margin-left:-500px;
 }
 .masthead p {
-  margin-left:400px;
-  color:goldenrod;
-  font-size:1.6em;
-  margin-top: 20px;
-  margin-bottom:10px;
-  letter-spacing:1.5px;
+  color:bisque;
+  font-size:1.2em;
+  margin-top: 0px;
+  margin-bottom:0px;
+  letter-spacing:2px;
 }
 /* NAVIGATION  */
 .nav {
-  margin-top:250px;
+  margin-top:350px;
   text-align:center;
 }
 .nav ul li a {
@@ -71,21 +71,22 @@ h1 {
 /* 3 BG IMAGES FOR SECTIONS */
 .intro {
   background-image: url("images/deskblur.jpg");
-  
   height: 400px;
   background-size: cover;
   height:500px;
   background-repeat: no-repeat;
+  border-radius:8px;
+  
   }
 .origin {
-  //background:darkslategrey;
   background-image: url("images/coffeeblur.jpg");
   background-size: cover;
   height:500px;
   background-position: center;
+  border-radius:8px;
 }
 .more {
-    background-image: url("images/compblur.jpg");
+  background-image: url("images/compblur.jpg");
   height:500px;
   background-size: cover;
   background-position: bottom;
@@ -95,6 +96,10 @@ h1 {
 
 .intro, .origin, .more {
   border-top: solid .3em rgba(0,68,95,1);
+
+}
+#moresect {
+        border-radius:8px;
 }
 
 .intro h2, .origin h2, .more h2 {
@@ -206,6 +211,7 @@ strong {
 	background: #7d7e7d;
 	height:150px;
     padding-top:1px;
+    border-radius:8px;
 }
 .hover {
 	background: #7d7e7d;
