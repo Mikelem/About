@@ -1,6 +1,6 @@
-Github for Web Designers
+About Me Thinkful Project
 ========================
 
-Hi! Welcome to the companion reference to my lynda.com Github for Web Designers course. This reference also serves as the exercise files for my course, so you can download the exercise files from this repo as well.
+Hi! Welcome to the About Me exercise project. There are four iterations, from basic to more complicated.
 
 ##[View the companion reference site](-copy link from github-)
