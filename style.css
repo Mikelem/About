@@ -212,6 +212,10 @@ strong {
 	height:150px;
     padding-top:1px;
     border-radius:8px;
+
+}
+.footer a {
+    font-size:4px;
 }
 .hover {
 	background: #7d7e7d;
@@ -223,6 +227,7 @@ strong {
 [class*="brandico-"] {
 	padding: 15px;
 	float: left;
+    font-size:10px;
 	-webkit-transition: all ease 0.3s;
 	-moz-transition: all ease 0.3s;
 	-o-transition: all ease 0.3s;
@@ -262,5 +267,12 @@ a {
 @media only screen and (max-width:500px){
     .masthead-heading {
         font-size:2em;
+    }
+    .masthead {
+            padding:3em 0;
+    }
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+	font-size: 10px;
     }
 }
