@@ -267,6 +267,7 @@ a {
 @media only screen and (max-width:500px){
     .masthead-heading {
         font-size:2em;
+        color:red;
     }
     .masthead {
             padding:3em 0;
@@ -274,5 +275,6 @@ a {
 [class*="brandico-"]:before {
 	font-family: 'brandico', sans-serif;
 	font-size: 10px;
+    color:red;
     }
 }
